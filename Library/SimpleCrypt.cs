@@ -1,5 +1,5 @@
-﻿using System.Security.Cryptography;
-using SimpleTripleDESCrypt.Intefaces;
+﻿using SimpleTripleDESCrypt.Intefaces;
+using System.Security.Cryptography;
 
 namespace SimpleTripleDESCrypt.Library {
 
@@ -23,7 +23,7 @@ namespace SimpleTripleDESCrypt.Library {
         public SimpleCrypt(byte[] desKey, byte[] desIv, PaddingMode paddingMode = PaddingMode.None, CipherMode cipherMode = CipherMode.CBC) {
             //Initialize library
             _tripleDes = new TripleDESCryptoServiceProvider {
-                Key =  desKey,
+                Key = desKey,
                 IV = desIv,
                 Padding = paddingMode,
                 Mode = cipherMode
