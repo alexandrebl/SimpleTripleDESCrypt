@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SimpleTripleDESCrypt</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>SimpleTripleDESCrypt</title>
     <authors>Alexandre Brandao Lustosa</authors>
     <owners>Alexandre Brandao Lustosa</owners>
@@ -15,4 +15,7 @@
     <copyright>Copyright 2017</copyright>
     <tags>3 DES Crypto library</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\SimpleTripleDESCrypt.*" target="lib\net45" />
+  </files>
 </package>
