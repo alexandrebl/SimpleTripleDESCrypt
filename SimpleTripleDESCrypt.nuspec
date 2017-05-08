@@ -11,7 +11,7 @@
     <iconUrl>https://github.com/alexandrebl/SimpleTripleDESCrypt</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>3 DES Cryptography Simple Library</description>
-    <releaseNotes>First version</releaseNotes>
+    <releaseNotes>First library version</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>3 DES Crypto library</tags>
   </metadata>
